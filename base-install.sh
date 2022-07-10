@@ -6,8 +6,8 @@ echo "This script will now locally (within this repo) install mitmproxy and JRE8
 read -s
 
 echo "Download tool archives..."
-wget -P /tmp/mitmproxy.tar.gz "https://snapshots.mitmproxy.org/6.0.2/mitmproxy-6.0.2-linux.tar.gz"
-wget -P /tmp/jre.tar.gz "https://download.macromedia.com/pub/coldfusion/java/java8/8u321/jre/jre-8u321-linux-x64.tar.gz"
+wget -O /tmp/mitmproxy.tar.gz "https://snapshots.mitmproxy.org/6.0.2/mitmproxy-6.0.2-linux.tar.gz"
+wget -O /tmp/jre.tar.gz "https://download.macromedia.com/pub/coldfusion/java/java8/8u321/jre/jre-8u321-linux-x64.tar.gz"
 
 echo "Extract..."
 mkdir -p $LOCATION/jre
