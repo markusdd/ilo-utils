@@ -112,7 +112,7 @@ if [[ ! -z "$ILO_AUTOPROXY" ]]; then
 fi;
 
 ILO_SESSKEY=$(
-  OPENSSL_CONF=openssl-conf.cnf curl -fsS\
+  OPENSSL_CONF=$LOCATION/openssl-conf.cnf curl -fsS\
     --insecure \
     "${ILO_ADDRESS}json/login_session" \
     --data "{\"method\":\"login\",\"user_login\":\"$ILO_LOGIN\",\"password\":\"$ILO_PASSWORD\"}" |
