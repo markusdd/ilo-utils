@@ -1,0 +1,10 @@
+[Unit]
+Description=MITM Proxies for iLO3 servers
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=ilo3-mitmproxy.sh
+
+[Install]
+WantedBy=multi-user.target
