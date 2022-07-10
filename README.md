@@ -3,7 +3,8 @@
 If this is in any way shape or form helpful to you: Please also check LICENSE.md and consider leaving me a tip on ko-fi:
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R8DQO8C)
-https://storage.ko-fi.com/cdn/useruploads/R6R8DQO8C/qrcode.png
+
+![image](https://user-images.githubusercontent.com/25175069/178159517-26c0ddef-30bc-4c48-ad57-1b4eeb40206e.png)
 
 ## Installation
 
