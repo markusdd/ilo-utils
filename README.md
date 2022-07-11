@@ -16,6 +16,8 @@ If this is in any way shape or form helpful to you: Please also check LICENSE.md
 
 ## Quick Start
 
+NOTE for iLO 2 users: If you really still have one of these ancient specimen: iLO 2 is not covered by the script generator, but after performing the setup above you can give '2' as a version when prompted directly to the ./ilo-console.sh script. The jar File is covered in there, so generally that should work as well.
+
 To run a remote console for an iLO server, run the corresponding script in 'ilo-console-scripts'.
 
 To ssh to the CLI of any iLO server, run the corresponding script in 'ilo-ssh-scripts'.
