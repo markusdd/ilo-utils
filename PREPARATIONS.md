@@ -16,5 +16,5 @@ Make sure you have done/checked the things below, otherwise you might experience
 - you MUST stick to the Java 8 version downloaded by the base-install.sh script, OpenJDK webstart does NOT work, we unfortunately need original Java
 - base-install.sh will download an older version (6.0.2) of mitmproxy ON PURPOSE, this is because of cipher support in their packaged OpenSSL
 - I assume linux x86_64 for everything I download
-
+- make sure you have libnsl installed on your system (required by Java webstart)
 
